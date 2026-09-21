@@ -10,7 +10,7 @@ body {
   position: absolute;
   top: 0;
   width: 100vw;
-  height: 50vh;
+  height: 40vh;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   color:  rgba(54, 88, 133, 1);
   font-family: "MuseoModerno";
   font-weight: normal;
@@ -52,12 +52,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5%;
+  padding-top: 0%;
   padding-left: 10%;
   padding-right: 10%;
   color: rgba(54, 88, 133, 1);
   font-family: "MuseoModerno";
-  font-size: 450%;
+  font-size: 350%;
 }
 
 .textinho2 {
@@ -68,7 +68,7 @@ body {
   align-items: center;
   color: #608EC9;
   font-family: "MuseoModerno";
-  font-size: 230%;
+  font-size: 150%;
   font-weight: normal;
   margin-top: -10%;
 }
@@ -84,6 +84,7 @@ body {
 .textinho4 {
   color:rgba(54, 88, 133, 1);
   text-decoration: none;
+  font-size: 1rem;
   margin: 15px 0 5px 0;
 }
 
@@ -102,15 +103,15 @@ body {
 
 .infos-tela-de-baixo {
   position: absolute;
-  top: 45vh;
+  top: 50vh;
   width: 100%;
-  height: 40vh;
+  height: 20vh;
   z-index: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .infos-tela-de-baixo-2 {

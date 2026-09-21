@@ -37,7 +37,20 @@ body {
   padding-left: 5%;
   color: #ffffff;
   font-size: 150%;
+  text-decoration: none;
 }
+
+.FeedBack a {
+  text-decoration: none;
+  display: inline-flex;
+  transition: transform 0.1s ease;
+  padding-left: 5%;
+}
+
+.FeedBack a:active {
+  transform: scale(0.90); 
+}
+
 
 .FeedBack {
   display: flex;
