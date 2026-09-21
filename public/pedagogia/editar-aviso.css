@@ -1,0 +1,193 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "MuseoModerno", sans-serif;
+  background-color: #f4f6f9;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-topo {
+  background-color: rgba(54, 88, 133, 1);
+  width: 100%;
+  padding: 10%;
+  text-align: center;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  flex-shrink: 0;
+}
+
+.infos-tela-de-cima {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.Editar a {
+  text-decoration: none;
+  display: inline-flex;
+  transition: transform 0.1s ease;
+}
+
+.Editar a:active {
+  transform: scale(0.90);
+}
+
+.icone-voltar {
+  color: #ffffff;
+  font-size: 150%;
+}
+
+.Editar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  color: #ffffff;
+  font-family: "MuseoModerno";
+  font-weight: normal;
+  font-size: 130%;
+}
+
+.container-botoes {
+  position: absolute;
+  top: 13%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  z-index: 5;
+}
+
+.btn.btn-editar {
+  background-color: #608EC9 !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px 15px !important;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.btn.btn-editar:hover {
+  background-color: #5278b8 !important;
+  transform: scale(1.05);
+}
+
+.btn.btn-deletar {
+  background-color: #FF4B4B !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px 15px !important;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.btn.btn-deletar:hover {
+  background-color: #e63a3a !important;
+  transform: scale(1.05);
+}
+
+.btn.btn-confirmar {
+  background-color: #7FFF78 !important;
+  color: #ffffff !important;
+  border: none !important;
+  padding: 10px 15px !important;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.btn.btn-confirmar:hover {
+  background-color: #6ae65f !important;
+  transform: scale(1.05);
+}
+
+.card-aviso {
+  width: 92%;
+  max-width: 700px;
+  flex: 1; 
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.card-aviso.escuro {
+  background-color: #365885;
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+.campo-data-wrapper {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.label-data {
+  color: #ffffff;
+  font-size: 90%;
+  font-weight: 500;
+}
+
+.input-data {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: "MuseoModerno", sans-serif;
+  outline: none;
+}
+
+.input-data:disabled,
+.textarea-conteudo:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.input-data::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.textarea-conteudo {
+  flex: 1; 
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  padding: 15px;
+  color: #ffffff;
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 100%;
+  resize: none;
+  outline: none;
+}
+
+.textarea-conteudo::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.textarea-conteudo:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: #ffffff;
+}

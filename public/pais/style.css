@@ -1,0 +1,112 @@
+body {
+  background-color: #f4f5f7;
+  font-family: "MuseoModerno";
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+
+.container-app {
+  width: 100%;
+  max-width: 414px;
+  background-color: #f4f5f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-topo {
+  background-color: rgba(54, 88, 133, 1);
+  width: 100%;
+  padding: 40px 20px 30px 20px;
+  text-align: center;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.BemVindo {
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.texto {
+  color: #ffffff;
+  font-size: 100%;
+  font-weight: 100%;
+  margin-top: 5px;
+  margin-bottom: 0%;
+}
+
+
+.conteudo-avisos {
+  width: 100%;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.titulo-secao {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titulo-secao h2 {
+  color: #365885;
+  font-size: 250%;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "MuseoModerno";
+  margin: 0;
+}
+
+.titulo-secao h3 {
+  color: #6a92ca;
+  font-size: 200%;
+  font-weight: 400;
+  margin-top: -5px;
+}
+
+
+.lista-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-aviso {
+  position: relative;
+  width: 100%;
+  padding: 16px 20px;
+  border-radius: 18px;
+  color: #ffffff;
+}
+
+
+.card-aviso.escuro {
+  background-color: #365885;
+}
+
+.card-aviso.claro {
+  background-color: #608EC9;
+}
+
+.card-aviso .data {
+  display: block;
+  font-size: 100%;
+  margin-bottom: 2%;
+}
+
+.card-aviso .descricao {
+  font-size: 100%;
+  font-weight: 100%;
+  line-height: 1;
+}
+
