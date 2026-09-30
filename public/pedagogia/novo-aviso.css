@@ -159,6 +159,19 @@ body {
   outline: none;
 }
 
+.input-data {
+width: 100%;
+}
+
+.textarea-conteudo {
+width: 100%;
+min-height: 150px;
+display: block;
+white-space: pre-wrap;
+word-break: break-word;
+resize: vertical;
+}
+
 .input-data:disabled,
 .textarea-conteudo:disabled {
   opacity: 0.8;

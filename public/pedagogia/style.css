@@ -18,6 +18,11 @@ body {
     align-items: center;
 }
 
+.add{
+    color: #6a92ca;
+    
+}
+
 .header-topo {
     background-color: rgba(54, 88, 133, 1);
     width: 100%;
@@ -42,7 +47,6 @@ body {
     margin-bottom: 0%;
 }
 
-
 .conteudo-avisos {
     width: 100%;
     padding: 20px 25px;
@@ -50,7 +54,6 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
 
 .titulo-secao {
     text-align: center;
@@ -132,4 +135,19 @@ input[type="button"] {
     border-radius: 8px;
     cursor: pointer;
     font-size: 100%;
+}
+
+
+.card-aviso p,
+.conteudo-aviso,
+.textarea-conteudo {
+    overflow-wrap: anywhere;  
+    word-break: break-all;     
+    max-width: 100%;         
+    box-sizing: border-box;   
+}
+
+.card-aviso {
+    max-width: 100%;
+    overflow: hidden; 
 }
