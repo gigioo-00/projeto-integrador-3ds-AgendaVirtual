@@ -41,7 +41,7 @@ function desenharCards(avisos) {
     container.innerHTML = '';
 
     if (avisos.length === 0) {
-        container.innerHTML = '<p style="text-align:center;">Nenhum aviso publicado ainda.</p>';
+        container.innerHTML = '<p style="text-align:center; color: #6a92ca;">Nenhum aviso publicado ainda.</p>';
         return;
     }
 
